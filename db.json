@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Áo Lớp Oversize Cổ Tròn Phối Màu",
+      "category": "Áo Lớp",
+      "price": 120000,
+      "image": "https://via.placeholder.com/300x300?text=Ao+Lop+Oversize"
+    },
+    {
+      "id": "2",
+      "name": "Áo Polo Công Sở Vải Cá Sấu Cao Cấp",
+      "category": "Áo Công Sở",
+      "price": 180000,
+      "image": "https://via.placeholder.com/300x300?text=Ao+Polo+Cong+So"
+    },
+    {
+      "id": "3",
+      "name": "Áo Thun Sự Kiện - Team Building",
+      "category": "Áo Nhóm",
+      "price": 95000,
+      "image": "https://via.placeholder.com/300x300?text=Ao+Team+Building"
+    },
+    {
+      "id": "4",
+      "name": "Áo Đồng Phục Nhà Hàng - Quán Cafe",
+      "category": "Áo Tạp Dề",
+      "price": 150000,
+      "image": "https://via.placeholder.com/300x300?text=Ao+Dong+Phuc+Cafe"
+    }
+  ]
+}
