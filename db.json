@@ -2,31 +2,45 @@
   "products": [
     {
       "id": "1",
-      "name": "Áo Lớp Oversize Cổ Tròn Phối Màu",
-      "category": "Áo Lớp",
+      "name": "Áo Lớp Oversize Phối Màu Tối Giản",
+      "category": "Áo Đồng Phục",
       "price": 120000,
-      "image": "https://via.placeholder.com/300x300?text=Ao+Lop+Oversize"
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "2",
       "name": "Áo Polo Công Sở Vải Cá Sấu Cao Cấp",
-      "category": "Áo Công Sở",
+      "category": "Áo Đồng Phục",
       "price": 180000,
-      "image": "https://via.placeholder.com/300x300?text=Ao+Polo+Cong+So"
+      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "3",
-      "name": "Áo Thun Sự Kiện - Team Building",
-      "category": "Áo Nhóm",
-      "price": 95000,
-      "image": "https://via.placeholder.com/300x300?text=Ao+Team+Building"
+      "name": "Quần Tây Học Sinh Thanh Lịch",
+      "category": "Quần Đồng Phục",
+      "price": 150000,
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "4",
-      "name": "Áo Đồng Phục Nhà Hàng - Quán Cafe",
-      "category": "Áo Tạp Dề",
-      "price": 150000,
-      "image": "https://via.placeholder.com/300x300?text=Ao+Dong+Phuc+Cafe"
+      "name": "Set Đồng Phục Kaki Doanh Nghiệp VIP",
+      "category": "VIP",
+      "price": 350000,
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Áo Thun Sự Kiện - Team Building",
+      "category": "Áo Đồng Phục",
+      "price": 95000,
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "6",
+      "name": "Phụ Kiện Nón Kết Đồng Phục",
+      "category": "Phụ Kiện",
+      "price": 45000,
+      "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=600&q=80"
     }
   ]
 }
