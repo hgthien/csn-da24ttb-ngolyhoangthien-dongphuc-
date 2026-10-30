@@ -2,45 +2,115 @@
   "products": [
     {
       "id": "1",
-      "name": "Áo Lớp Oversize Phối Màu Tối Giản",
-      "category": "Áo Đồng Phục",
-      "price": 120000,
-      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
+      "name": "Áo Thun Đồng Phục Lớp Oversize Basic Trắng",
+      "category": "Áo Lớp",
+      "price": 145000,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "2",
-      "name": "Áo Polo Công Sở Vải Cá Sấu Cao Cấp",
-      "category": "Áo Đồng Phục",
-      "price": 180000,
-      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80"
+      "name": "Áo Polo Đồng Phục Lớp Phối Cổ Thanh Lịch",
+      "category": "Áo Lớp",
+      "price": 165000,
+      "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "3",
-      "name": "Quần Tây Học Sinh Thanh Lịch",
-      "category": "Quần Đồng Phục",
+      "name": "Áo Thun Lớp Cổ Tròn Cotton 2 Chiều Đen",
+      "category": "Áo Lớp",
       "price": 150000,
-      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"
+      "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "4",
-      "name": "Set Đồng Phục Kaki Doanh Nghiệp VIP",
-      "category": "VIP",
-      "price": 350000,
-      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80"
+      "name": "Áo Raglan Đồng Phục Lớp Tay Lỡ Năng Động",
+      "category": "Áo Lớp",
+      "price": 160000,
+      "image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "5",
-      "name": "Áo Thun Sự Kiện - Team Building",
-      "category": "Áo Đồng Phục",
-      "price": 95000,
-      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80"
+      "name": "Áo Polo Đồng Phục Công Sở Cao Cấp Đen",
+      "category": "Áo Công Sở",
+      "price": 195000,
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": "6",
-      "name": "Phụ Kiện Nón Kết Đồng Phục",
-      "category": "Phụ Kiện",
+      "name": "Áo Sơ Mi Đồng Phục Doanh Nghiệp Dài Tay",
+      "category": "Áo Công Sở",
+      "price": 240000,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "7",
+      "name": "Áo Polo Công Sở Vải Cá Sấu Poly Thoáng Mát",
+      "category": "Áo Công Sở",
+      "price": 185000,
+      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "8",
+      "name": "Áo Sơ Mi Công Sở Oxford Form Regular Fit",
+      "category": "Áo Công Sở",
+      "price": 255000,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "9",
+      "name": "Set Áo Thun Đồng Phục Gia Đình & Nhóm Dã Ngoại",
+      "category": "Áo Nhóm - Gia Đình",
+      "price": 155000,
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "10",
+      "name": "Áo Khoác Hoodie Đồng Phục Nhóm Team Building",
+      "category": "Áo Nhóm - Gia Đình",
+      "price": 280000,
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "11",
+      "name": "Áo Thun Nhóm Đi Biển Phong Cách Minimalist",
+      "category": "Áo Nhóm - Gia Đình",
+      "price": 140000,
+      "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "12",
+      "name": "Áo Sweater Đồng Phục Câu Lạc Bộ & Nhóm",
+      "category": "Áo Nhóm - Gia Đình",
+      "price": 260000,
+      "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "13",
+      "name": "Mẫu In Lụa Logo Minimalist Streetwear",
+      "category": "Mẫu In",
       "price": 45000,
-      "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=600&q=80"
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "14",
+      "name": "Mẫu In Decal Nhiệt Typography Chữ Ký Lớp",
+      "category": "Mẫu In",
+      "price": 55000,
+      "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "15",
+      "name": "Mẫu In Kỹ Thuật Số DTG Họa Tiết Graphic",
+      "category": "Mẫu In",
+      "price": 65000,
+      "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "16",
+      "name": "Mẫu Thêu Vi Tính Logo Ngực Áo Sắc Nét",
+      "category": "Mẫu In",
+      "price": 50000,
+      "image": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?auto=format&fit=crop&w=600&q=80"
     }
   ]
 }
