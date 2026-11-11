@@ -1,117 +1,162 @@
 import { Link } from 'react-router-dom';
+import { FiCheckCircle, FiShield, FiTruck, FiEdit3 } from 'react-icons/fi';
+import './Home.css';
 
 function Home() {
   return (
-    <div style={{ backgroundColor: '#ffffff' }}>
-      <div style={{ padding: '14px 40px', fontSize: '14px', color: '#555', borderBottom: '1px solid #f0f0f0' }}>
-        <span>Trang chủ</span> &nbsp;&rsaquo;&nbsp; <span style={{ color: '#111' }}>Mở Bán</span>
-      </div>
-
-      <div style={{
-        position: 'relative',
-        width: '100%',
-        height: '520px',
-        backgroundImage: 'url("https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1600&q=80")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        display: 'flex',
-        alignItems: 'center'
-      }}>
-        <div style={{
-          position: 'absolute',
-          inset: 0,
-          background: 'linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.2) 55%, rgba(0,0,0,0) 100%)'
-        }} />
-
-        <div style={{ position: 'relative', zIndex: 1, padding: '0 60px', color: '#ffffff', maxWidth: '550px' }}>
-          <div style={{
-            display: 'inline-block',
-            backgroundColor: '#ffffff',
-            color: '#111111',
-            padding: '6px 18px',
-            fontWeight: '700',
-            fontSize: '14px',
-            letterSpacing: '1px',
-            marginBottom: '18px'
-          }}>
-            MỚI MỞ BÁN
+    <div className="home-wrapper">
+      
+      {/* BANNER CHÍNH NỀN NAVY ĐẬM TÔN 3 ẢNH SẢN PHẨM */}
+      <section className="hero-section">
+        <div className="hero-container">
+          <div className="hero-content">
+            <span className="hero-badge">Xưởng May & Thiết Kế Đồng Phục Theo Yêu Cầu</span>
+            <h1 className="hero-title">
+              ĐỒNG PHỤC LỚP, CÔNG TY & GIA ĐÌNH CHẤT LƯỢNG CAO
+            </h1>
+            <p className="hero-desc">
+              Miễn phí thiết kế mẫu 3D. Vải Cotton 100% thoáng mát, công nghệ in DTG và thêu vi tính sắc nét. Đặt theo tập thể giảm ngay <strong>25%</strong>
+            </p>
+            <div className="hero-actions">
+              <Link to="/san-pham" className="btn-primary">
+                KHÁM PHÁ MẪU ĐỒNG PHỤC
+              </Link>
+              <Link to="/san-pham?category=mau-in" className="btn-outline">
+                XEM MẪU IN & THÊU LOGO
+              </Link>
+            </div>
           </div>
 
-          <h2 style={{ fontSize: '38px', fontWeight: '800', margin: '0 0 12px 0', lineHeight: '1.2', letterSpacing: '1px' }}>
-            PHONG CÁCH TỐI GIẢN<br />ĐỒNG PHỤC CƠ BẢN
-          </h2>
+          <div className="hero-gallery">
+            <div className="gallery-card">
+              <img src="/images/cat-aolop.jpg" alt="Áo lớp" />
+              <span>Áo Lớp</span>
+            </div>
+            <div className="gallery-card">
+              <img src="/images/cat-congso.jpg" alt="Công sở" />
+              <span>Công Sở</span>
+            </div>
+            <div className="gallery-card">
+              <img src="/images/cat-giadinh.jpg" alt="Gia đình" />
+              <span>Gia Đình</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <p style={{ fontSize: '22px', margin: '0 0 24px 0', fontWeight: '400' }}>
-            Đặt theo lớp giảm <strong style={{ color: '#f5b041', fontSize: '42px', display: 'block', marginTop: '4px' }}>25%</strong>
-          </p>
+      {/* THANH CAM KẾT ĐỒNG BỘ 1 MÀU ICON DUY NHẤT */}
+      <section className="commit-bar">
+        <div className="commit-container">
+          <div className="commit-item">
+            <div className="commit-icon"><FiEdit3 size={24} /></div>
+            <div>
+              <h4>Thiết Kế Demo Miễn Phí</h4>
+              <p>Lên mẫu áo & logo theo ý tưởng riêng</p>
+            </div>
+          </div>
+          <div className="commit-item">
+            <div className="commit-icon"><FiShield size={24} /></div>
+            <div>
+              <h4>Bảo Hành In Thêu 12 Tháng</h4>
+              <p>Cam kết không bong tróc, phai màu</p>
+            </div>
+          </div>
+          <div className="commit-item">
+            <div className="commit-icon"><FiCheckCircle size={24} /></div>
+            <div>
+              <h4>Đủ Size Từ Trẻ Em Đến 5XL</h4>
+              <p>May đo chuẩn form học sinh & văn phòng</p>
+            </div>
+          </div>
+          <div className="commit-item">
+            <div className="commit-icon"><FiTruck size={24} /></div>
+            <div>
+              <h4>Chiết Khấu Cao Cho Tập Thể</h4>
+              <p>Đặt từ 10 áo nhận giá gốc tận xưởng</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <Link to="/san-pham" style={{
-            display: 'inline-block',
-            padding: '12px 28px',
-            backgroundColor: '#0056b3',
-            color: '#ffffff',
-            textDecoration: 'none',
-            fontWeight: '600',
-            fontSize: '14px',
-            letterSpacing: '0.5px'
-          }}>
-            XEM BỘ SƯU TẬP
+      {/* DANH MỤC ĐỒNG PHỤC CHÍNH */}
+      <section className="category-section">
+        <div className="section-header">
+          <div>
+            <span className="section-sub">BỘ SƯU TẬP CHỦ LỰC</span>
+            <h2 className="section-title">DANH MỤC ĐỒNG PHỤC</h2>
+          </div>
+          <Link to="/san-pham" className="view-all-link">
+            Xem tất cả 16 mẫu &rarr;
           </Link>
         </div>
-      </div>
 
-      <div style={{ maxWidth: '1280px', margin: '40px auto', padding: '0 20px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', borderBottom: '2px solid #111', paddingBottom: '10px' }}>
-          <h3 style={{ margin: 0, fontSize: '20px', fontWeight: '700', color: '#111', textTransform: 'uppercase' }}>
-            Danh Mục Đồng Phục
-          </h3>
-          <Link to="/san-pham" style={{ textDecoration: 'none', color: '#0056b3', fontSize: '14px', fontWeight: '600' }}>
-            Xem tất cả &rarr;
-          </Link>
-        </div>
-
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-          gap: '20px'
-        }}>
-          <Link to="/san-pham" style={{ textDecoration: 'none', color: '#111', border: '1px solid #e5e5e5' }}>
-            <img 
-              src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80" 
-              alt="Áo Đồng Phục" 
-              style={{ width: '100%', height: '320px', objectFit: 'cover', display: 'block' }} 
-            />
-            <div style={{ padding: '15px', backgroundColor: '#fff' }}>
-              <h4 style={{ margin: '0 0 6px 0', fontSize: '16px', fontWeight: '700' }}>ÁO ĐỒNG PHỤC</h4>
-              <span style={{ fontSize: '13px', color: '#666' }}>Áo thun cổ tròn, Áo Polo lớp & công sở</span>
+        <div className="category-grid">
+          <Link to="/san-pham?category=ao-lop" className="category-card">
+            <div className="category-img-wrap">
+              <img src="/images/cat-aolop.jpg" alt="Đồng Phục Áo Lớp" />
+              <span className="category-tag">TRƯỜNG HỌC</span>
+            </div>
+            <div className="category-body">
+              <h3>ĐỒNG PHỤC TRƯỜNG HỌC & ÁO LỚP</h3>
+              <p>Áo thun oversize, Polo phối cổ in slogan độc quyền cho học sinh - sinh viên.</p>
             </div>
           </Link>
 
-          <Link to="/san-pham" style={{ textDecoration: 'none', color: '#111', border: '1px solid #e5e5e5' }}>
-            <img 
-              src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80" 
-              alt="Quần Đồng Phục" 
-              style={{ width: '100%', height: '320px', objectFit: 'cover', display: 'block' }} 
-            />
-            <div style={{ padding: '15px', backgroundColor: '#fff' }}>
-              <h4 style={{ margin: '0 0 6px 0', fontSize: '16px', fontWeight: '700' }}>QUẦN ĐỒNG PHỤC</h4>
-              <span style={{ fontSize: '13px', color: '#666' }}>Quần tây học sinh, Quần kaki đồng phục</span>
+          <Link to="/san-pham?category=ao-cong-so" className="category-card">
+            <div className="category-img-wrap">
+              <img src="/images/cat-congso.jpg" alt="Đồng Phục Công Sở" />
+              <span className="category-tag">DOANH NGHIỆP</span>
+            </div>
+            <div className="category-body">
+              <h3>ĐỒNG PHỤC CÔNG TY - VĂN PHÒNG</h3>
+              <p>Áo Polo vải cá sấu, Sơ mi công sở thêu vi tính logo sắc nét, lịch sự.</p>
             </div>
           </Link>
 
-          <Link to="/san-pham" style={{ textDecoration: 'none', color: '#111', border: '1px solid #e5e5e5' }}>
-            <img 
-              src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80" 
-              alt="Đồng Phục VIP" 
-              style={{ width: '100%', height: '320px', objectFit: 'cover', display: 'block' }} 
-            />
-            <div style={{ padding: '15px', backgroundColor: '#fff' }}>
-              <h4 style={{ margin: '0 0 6px 0', fontSize: '16px', fontWeight: '700' }}>ĐỒNG PHỤC VIP</h4>
-              <span style={{ fontSize: '13px', color: '#666' }}>Thiết kế riêng chất liệu cao cấp cho doanh nghiệp</span>
+          <Link to="/san-pham?category=ao-nhom" className="category-card">
+            <div className="category-img-wrap">
+              <img src="/images/cat-giadinh.jpg" alt="Áo Nhóm - Gia Đình" />
+              <span className="category-tag">GIA ĐÌNH & NHÓM</span>
+            </div>
+            <div className="category-body">
+              <h3>ĐỒNG PHỤC GIA ĐÌNH & TEAM BUILDING</h3>
+              <p>Set áo gia đình đủ size bố mẹ và bé, áo nhóm du lịch biển gắn kết.</p>
             </div>
           </Link>
         </div>
-      </div>
+      </section>
+
+      {/* QUY TRÌNH 4 BƯỚC ĐỒNG BỘ TÔNG MÀU */}
+      <section className="process-section">
+        <div className="process-container">
+          <span className="section-sub">DỊCH VỤ CHUYÊN NGHIỆP</span>
+          <h2 className="section-title">QUY TRÌNH ĐẶT MAY TẠI THIEN.VN</h2>
+          
+          <div className="process-grid">
+            <div className="process-card">
+              <div className="step-num">01</div>
+              <h4>Chọn Mẫu & Chất Vải</h4>
+              <p>Tham khảo mẫu áo lớp, công sở, gia đình và kiểu in/thêu trên web.</p>
+            </div>
+            <div className="process-card">
+              <div className="step-num">02</div>
+              <h4>Thiết Kế & Chốt Size</h4>
+              <p>Gửi logo/slogan để xưởng lên bản vẽ 3D miễn phí và chốt bảng size.</p>
+            </div>
+            <div className="process-card">
+              <div className="step-num">03</div>
+              <h4>Sản Xuất & In Thêu</h4>
+              <p>May đo tại xưởng, in kỹ thuật số hoặc thêu vi tính sắc nét.</p>
+            </div>
+            <div className="process-card">
+              <div className="step-num">04</div>
+              <h4>Giao Hàng & Bảo Hành</h4>
+              <p>Giao tận nơi toàn quốc, kiểm tra hàng trước khi thanh toán.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }

@@ -2,115 +2,179 @@
   "products": [
     {
       "id": "1",
-      "name": "Áo Thun Đồng Phục Lớp Oversize Basic Trắng",
+      "name": "Áo Thun Lớp Oversize Phối Đen Trắng Never Stop Dreaming",
       "category": "Áo Lớp",
       "price": 145000,
-      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp1.jpg",
+      "material": "Vải thun Cotton 100% 2 chiều định lượng 250gsm dày dặn, may ghép 2 mảng màu đen - trắng độc đáo, đứng form tay lỡ.",
+      "printTech": "In lụa Plastisol cao cấp vòng tròn slogan 'Never Stop Dreaming' sắc nét chính giữa ngực áo, bao giặt máy không bong tróc.",
+      "minOrder": "Nhận đặt từ 15 áo trở lên (Miễn phí đổi câu slogan theo yêu cầu lớp & tặng 1 áo GVCN).",
+      "sizes": ["S", "M", "L", "XL", "Oversize"]
     },
     {
       "id": "2",
-      "name": "Áo Polo Đồng Phục Lớp Phối Cổ Thanh Lịch",
+      "name": "Áo Polo Đồng Phục Lớp 12C5 Sọc Navy Phối Vai Trắng",
       "category": "Áo Lớp",
       "price": 165000,
-      "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp2.jpg",
+      "material": "Vải thun cá sấu dệt sọc dọc xanh Navy phối mảng vai và hông màu trắng, cổ bẻ trắng đính 3 cúc thanh lịch, thoáng mát.",
+      "printTech": "In PET chuyển nhiệt kỹ thuật số logo '12C5' xanh dương viền nổi trước ngực, màu sắc tươi sáng chuẩn phong cách học đường.",
+      "minOrder": "Nhận đặt từ 15 áo trở lên (Hỗ trợ đổi tên lớp 10, 11, 12 theo yêu cầu & tặng cờ lớp).",
+      "sizes": ["S", "M", "L", "XL", "2XL"]
     },
     {
       "id": "3",
-      "name": "Áo Thun Lớp Cổ Tròn Cotton 2 Chiều Đen",
+      "name": "Áo Lớp Jersey Thể Thao Cổ Tim Phối Tay Bạc Số 7",
       "category": "Áo Lớp",
       "price": 150000,
-      "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp3.jpg",
+      "material": "Vải thun mè thể thao kết hợp tay áo vải ánh bạc (Metallic) cá tính, form rộng rãi mang đậm phong cách bóng bầu dục Mỹ.",
+      "printTech": "In Decal nhiệt cao cấp số 7 cỡ lớn và chữ ký cách điệu trước ngực, bề mặt hình in bóng mịn, không nứt gãy.",
+      "minOrder": "Nhận đặt từ 10 áo trở lên (Hỗ trợ in số áo và tên riêng cho từng thành viên trong lớp).",
+      "sizes": ["M", "L", "XL", "Oversize"]
     },
     {
       "id": "4",
-      "name": "Áo Raglan Đồng Phục Lớp Tay Lỡ Năng Động",
+      "name": "Áo Thun Lớp Tie-Dye Tím Loang Học Nhiệt Tình Quẩy Hết Mình",
       "category": "Áo Lớp",
       "price": 160000,
-      "image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp4.jpg",
+      "material": "Vải thun Cotton Tici nhuộm loang màu tím (Purple Tie-Dye) thủ công, cầm màu tuyệt đối, mềm mịn và thoáng khí.",
+      "printTech": "In lụa mực trắng nổi bật: mặt trước in huy hiệu tay cầm game A3, mặt sau in chữ lớn 'Học Nhiệt Tình - Quẩy Hết Mình' kèm icon tên lửa.",
+      "minOrder": "Nhận đặt từ 15 áo trở lên (Bảo hành hình in 12 tháng, miễn phí thiết kế lại tên lớp).",
+      "sizes": ["S", "M", "L", "XL", "Oversize"]
     },
     {
       "id": "5",
-      "name": "Áo Polo Đồng Phục Công Sở Cao Cấp Đen",
+      "name": "Áo Polo Đồng Phục Công Ty Xanh Navy Phối Vai Xanh Dương",
       "category": "Áo Công Sở",
       "price": 195000,
-      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp5.jpg",
+      "material": "Vải Cá Sấu Poly Thái cao cấp màu xanh Navy đậm, phối đường cắt xanh dương - trắng ở cầu vai, bo cổ và bo tay dệt viền sang trọng.",
+      "printTech": "In PET hoặc thêu vi tính sắc nét logo tròn chuyên ngành (Food Process Engineering) tại ngực trái.",
+      "minOrder": "Nhận may từ 10 áo trở lên (Hỗ trợ may áo mẫu thử thực tế & xuất hóa đơn VAT doanh nghiệp).",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
     },
     {
       "id": "6",
-      "name": "Áo Sơ Mi Đồng Phục Doanh Nghiệp Dài Tay",
+      "name": "Bộ Đồng Phục Sơ Mi Xanh Nhạt & Quần Tây/Chân Váy Văn Phòng",
       "category": "Áo Công Sở",
       "price": 240000,
-      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp6.jpg",
+      "material": "Áo sơ mi vải Kate Bamboo xanh da trời nhạt chống nhăn, kết hợp chân váy bút chì (Nữ) và quần âu (Nam) vải Tuyết Mưa xanh Navy đứng dáng.",
+      "printTech": "Tặng kèm phụ kiện đồng bộ: Nơ cổ kẻ sọc xanh-trắng thanh lịch cho nhân viên nữ và Cà vạt xanh bản chuẩn cho nhân viên nam.",
+      "minOrder": "Nhận may đo theo size chuẩn Nam/Nữ từ 10 bộ trở lên (Có bán lẻ riêng áo sơ mi hoặc quần/chân váy).",
+      "sizes": ["S (Nam/Nữ)", "M (Nam/Nữ)", "L (Nam/Nữ)", "XL (Nam/Nữ)", "2XL (Nam/Nữ)"]
     },
     {
       "id": "7",
-      "name": "Áo Polo Công Sở Vải Cá Sấu Poly Thoáng Mát",
+      "name": "Áo Polo Đồng Phục Đại Học Trà Vinh Trắng Phối Cổ Xanh Lá",
       "category": "Áo Công Sở",
       "price": 185000,
-      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp7.jpg",
+      "material": "Vải thun Cá Sấu 4 chiều màu trắng tinh khôi, phối bo cổ và bo tay màu xanh lá cây đậm kẻ sọc trắng, thấm hút mồ hôi cực tốt.",
+      "printTech": "In chuyển nhiệt sắc nét dòng chữ 'ĐẠI HỌC TRÀ VINH - Trung tâm nghiên cứu tiên tiến ĐBSCL & Phát triển cộng đồng' sau lưng và logo tay áo.",
+      "minOrder": "Nhận đặt từ 10 áo cho các Khoa, Viện, Câu lạc bộ và Sự kiện trường học (Chiết khấu cao cho sinh viên TVU).",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
     },
     {
       "id": "8",
-      "name": "Áo Sơ Mi Công Sở Oxford Form Regular Fit",
+      "name": "Áo Sơ Mi Nam Công Sở Dài Tay Xanh Pastel Chuẩn Form",
       "category": "Áo Công Sở",
       "price": 255000,
-      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp8.jpg",
+      "material": "Vải Kate Mỹ cao cấp màu xanh Pastel dịu mắt, bên trong chân cổ áo phối viền trắng tinh tế, ít nhăn và giữ form lịch lãm cả ngày.",
+      "printTech": "Thêu vi tính logo chữ trắng tối giản trên ngực trái, đường may cuốn sườn 5 mũi/cm chuẩn xuất khẩu.",
+      "minOrder": "Nhận đặt may từ 10 áo trở lên (Có đầy đủ form Slim-fit ôm vừa vặn và Regular-fit thoải mái).",
+      "sizes": ["38", "39", "40", "41", "42", "43"]
     },
     {
       "id": "9",
-      "name": "Set Áo Thun Đồng Phục Gia Đình & Nhóm Dã Ngoại",
+      "name": "Set 4 Áo Thun Gia Đình Dã Ngoại Raglan Phối Tay Nâu - Xanh Lá",
       "category": "Áo Nhóm - Gia Đình",
-      "price": 155000,
-      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80"
+      "price": 550000,
+      "image": "/images/sp9.jpg",
+      "material": "Vải Cotton 100% Organic mềm mịn, thân áo màu trắng kem phối tay Raglan lệch màu (1 bên tay nâu, 1 bên tay xanh lá đậm) cực kỳ ăn ảnh.",
+      "printTech": "In lụa mực nước an toàn hình chú cún nhỏ dễ thương ở ngực trái, chất vải thoáng mát phù hợp cho các buổi cắm trại ngoài trời.",
+      "minOrder": "Giá niêm yết trọn bộ 4 áo (2 áo người lớn Bố Mẹ + 2 áo trẻ em tùy chọn theo chiều cao, cân nặng của bé).",
+      "sizes": ["Set 3 Áo Gia Đình", "Set 4 Áo Gia Đình", "Set 5 Áo Gia Đình"]
     },
     {
       "id": "10",
-      "name": "Áo Khoác Hoodie Đồng Phục Nhóm Team Building",
+      "name": "Áo Thun Đồng Phục Team Building Xanh Da Trời Together We Can",
       "category": "Áo Nhóm - Gia Đình",
-      "price": 280000,
-      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80"
+      "price": 150000,
+      "image": "/images/sp10.jpg",
+      "material": "Vải thun lạnh thể thao 4 chiều màu xanh da trời nhạt, siêu nhẹ, thoáng khí và nhanh khô khi tham gia hoạt động tập thể.",
+      "printTech": "In chuyển nhiệt toàn thân họa tiết đường chạy Marathon năng động kèm slogan 'Together We Can' sắc nét trước ngực.",
+      "minOrder": "Nhận đặt từ 10 áo trở lên cho công ty, hội nhóm du lịch (Hỗ trợ sản xuất lấy gấp trong 48 giờ).",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"]
     },
     {
       "id": "11",
-      "name": "Áo Thun Nhóm Đi Biển Phong Cách Minimalist",
+      "name": "Set Đồng Phục Gia Đình Cao Cấp Áo Polo & Váy Phối Đen Kem",
       "category": "Áo Nhóm - Gia Đình",
-      "price": 140000,
-      "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=600&q=80"
+      "price": 620000,
+      "image": "/images/sp11.jpg",
+      "material": "Vải Cá Sấu Cotton Pique co giãn 4 chiều, phối mảng màu Đen - Kem tạo hình chữ V hiện đại, có túi hộp nhỏ đính tag trước ngực.",
+      "printTech": "Thiết kế đồng bộ thông minh: Bố và Bé trai mặc Áo Polo lịch lãm, Mẹ và Bé gái mặc Đầm Polo khóa kéo cổ trẻ trung, sang trọng.",
+      "minOrder": "Bán theo Set từ 3 - 5 trang phục (Có đầy đủ bảng size cho bé từ 10kg đến 40kg và size Bố Mẹ từ S đến 3XL).",
+      "sizes": ["Set 3 Người (Bố-Mẹ-1 Bé)", "Set 4 Người (Bố-Mẹ-2 Bé)", "Mua Lẻ Từng Size"]
     },
     {
       "id": "12",
-      "name": "Áo Sweater Đồng Phục Câu Lạc Bộ & Nhóm",
+      "name": "Áo Sweater Trắng Dài Tay Đồng Phục Nhóm Bạn Đi Biển Phối Màu",
       "category": "Áo Nhóm - Gia Đình",
-      "price": 260000,
-      "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80"
+      "price": 140000,
+      "image": "/images/sp12.jpg",
+      "material": "Vải nỉ bông Cotton mỏng nhẹ màu trắng tinh khôi, kiểu dáng Sweater dài tay form rộng giấu quần cực kỳ trẻ trung cho hội bạn thân.",
+      "printTech": "Phối kèm khăn len choàng vai và tất cao cổ đồng màu rực rỡ (Cam, Xanh cốm, Vàng, Hồng sen, Tím) giúp bức ảnh kỷ yếu/du lịch biển nổi bật.",
+      "minOrder": "Nhận đặt cho nhóm nhỏ từ 5 áo trở lên (Tặng kèm vớ/tất màu sắc tương ứng khi đặt trọn bộ).",
+      "sizes": ["Form Freesize (40-60kg)", "Form Oversize (60-78kg)"]
     },
     {
       "id": "13",
-      "name": "Mẫu In Lụa Logo Minimalist Streetwear",
+      "name": "Bộ Sưu Tập 12 Mẫu Hình In Linh Vật Hổ Chibi Áo Lớp Độc Quyền",
       "category": "Mẫu In",
       "price": 45000,
-      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp13.jpg",
+      "material": "Mực in PET chuyển nhiệt và Mực lụa Plastisol đa sắc, thể hiện sống động các mẫu linh vật Hổ Chibi (Hổ báo trường mẫu giáo, Đỉnh của chóp, 9A1...).",
+      "printTech": "In kỹ thuật số độ phân giải cao, giữ nguyên hiệu ứng chuyển màu rực rỡ, viền chữ sắc nét và không bị bết dính khi giặt.",
+      "minOrder": "Đơn giá gia công in ấn cộng thêm trên áo (Miễn phí đổi tên lớp A1, A3, 9A... và niên khóa trên mẫu linh vật).",
+      "sizes": ["In Ngực Nhỏ (10cm)", "In Lưng Khổ A4", "In Lưng Khổ A3 Đại"]
     },
     {
       "id": "14",
-      "name": "Mẫu In Decal Nhiệt Typography Chữ Ký Lớp",
+      "name": "Bảng Các Mẫu Thiết Kế Decal Đa Sắc Chủ Đề Typography (#1274 - #1288)",
       "category": "Mẫu In",
       "price": 55000,
-      "image": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp14.jpg",
+      "material": "Decal PVC chuyển nhiệt Hàn Quốc kết hợp mực in nổi 3D với các slogan tiếng Anh chất lượng (Life Is A Journey, No Pain No Gain, Winner Takes All...).",
+      "printTech": "Cắt bế vi tính chuẩn xác từng ký tự và ép nhiệt cao tần ở 165 độ C, bám chặt vào thớ vải, không bong tróc cạnh chữ.",
+      "minOrder": "Khách hàng tùy chọn mã số mẫu từ #1274 đến #1288 và yêu cầu xưởng thay đổi tên lớp/trường học tương ứng.",
+      "sizes": ["Mẫu In Ngực", "Mẫu In Lưng Khổ A4", "Mẫu In Lưng Khổ A3"]
     },
     {
       "id": "15",
-      "name": "Mẫu In Kỹ Thuật Số DTG Họa Tiết Graphic",
+      "name": "Gói Gia Công In Lụa & In Chuyển Nhiệt Logo Công Ty (Trước & Sau)",
       "category": "Mẫu In",
       "price": 65000,
-      "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp15.jpg",
+      "material": "Mực in pha chuẩn hệ màu Pantone doanh nghiệp, đảm bảo độ tương phản cao trên các nền vải màu nổi như cam, đỏ, xanh đen.",
+      "printTech": "Bố cục in tiêu chuẩn doanh nghiệp: 1 vị trí Logo nhỏ gọn trước ngực trái (8-10cm) và 1 vị trí Logo + Tên công ty khổ lớn giữa lưng áo (25-30cm).",
+      "minOrder": "Áp dụng cho đơn đặt áo polo công sở, áo đồng phục sự kiện công ty từ 10 áo trở lên.",
+      "sizes": ["Chỉ In Ngực Trái", "Combo In Ngực + In Lưng", "Combo Ngực + Lưng + Tay Áo"]
     },
     {
       "id": "16",
-      "name": "Mẫu Thêu Vi Tính Logo Ngực Áo Sắc Nét",
+      "name": "Dịch Vụ Thêu Vi Tính Logo Nổi Sắc Nét (Mẫu Choco.Mita Gaming)",
       "category": "Mẫu In",
       "price": 50000,
-      "image": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?auto=format&fit=crop&w=600&q=80"
+      "image": "/images/sp16.jpg",
+      "material": "Chỉ thêu 100% Polyester bóng mượt (Trắng, Vàng, Đỏ, Đen), không phai màu hay đứt chỉ ngay cả khi giặt công nghiệp.",
+      "printTech": "Thêu trực tiếp trên dàn máy thêu vi tính đa kim hiện đại, mật độ mũi chỉ dày dặn tạo khối 3D sắc sảo cho cả hình linh vật lẫn chữ nhỏ.",
+      "minOrder": "Miễn phí thiết kế file lập trình máy thêu (Punching) cho các đơn hàng đồng phục lớp, CLB, Gaming team và công ty từ 20 áo.",
+      "sizes": ["Thêu Ngực Trái (6-8cm)", "Thêu Tay Áo (5cm)", "Thêu Lưng Lớn (18-22cm)"]
     }
   ]
 }

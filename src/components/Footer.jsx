@@ -1,91 +1,85 @@
-import { FiBox, FiShield, FiMapPin, FiBookOpen } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import { FiBox, FiShield, FiMapPin, FiBookOpen } from 'react-icons/fi';
+import './Footer.css';
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: '#000000', color: '#ffffff', paddingTop: '50px', marginTop: 'auto' }}>
-      
-      <div style={{ 
-        maxWidth: '1200px', 
-        margin: '0 auto', 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', 
-        gap: '30px', 
-        padding: '0 40px 40px', 
-        borderBottom: '1px solid #333' 
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <FiBox size={32} color="#fff" />
-          <div>
-            <h4 style={{ margin: '0 0 5px 0', fontSize: '15px', fontWeight: '700', textTransform: 'uppercase' }}>Miễn phí ship</h4>
-            <span style={{ fontSize: '13px', color: '#999' }}>Toàn quốc</span>
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <FiShield size={32} color="#fff" />
-          <div>
-            <h4 style={{ margin: '0 0 5px 0', fontSize: '15px', fontWeight: '700', textTransform: 'uppercase' }}>Bảo hành</h4>
-            <span style={{ fontSize: '13px', color: '#999' }}>365 ngày</span>
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <FiMapPin size={32} color="#fff" />
-          <div>
-            <h4 style={{ margin: '0 0 5px 0', fontSize: '15px', fontWeight: '700', textTransform: 'uppercase' }}>Địa chỉ</h4>
-            <span style={{ fontSize: '13px', color: '#999' }}>Cửa hàng TVU.vn</span>
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <FiBookOpen size={32} color="#fff" />
-          <div>
-            <h4 style={{ margin: '0 0 5px 0', fontSize: '15px', fontWeight: '700', textTransform: 'uppercase' }}>Tạp chí</h4>
-            <span style={{ fontSize: '13px', color: '#999' }}>Thông tin thời trang</span>
-          </div>
-        </div>
-      </div>
-
-      <div style={{ 
-        maxWidth: '1200px', 
-        margin: '40px auto', 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
-        gap: '30px', 
-        padding: '0 40px' 
-      }}>
-        <div>
-          <h4 style={{ fontSize: '16px', fontWeight: '700', marginBottom: '20px' }}>Đồng Phục</h4>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Áo Thun Cổ Tròn</p>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Áo Polo Công Sở</p>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Quần Tây Nam/Nữ</p>
-        </div>
+    <footer className="footer-wrapper">
+      <div className="footer-container">
         
-        <div>
-          <h4 style={{ fontSize: '16px', fontWeight: '700', marginBottom: '20px' }}>Phụ Kiện</h4>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Nón Kết Đồng Phục</p>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Túi Tote - Balo</p>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Bảng Tên Tự Thiết Kế</p>
+        <div className="footer-features">
+          <div className="feature-box">
+            <FiBox size={26} className="feature-icon" />
+            <div>
+              <div className="feature-title">MIỄN PHÍ SHIP</div>
+              <div className="feature-sub">Đơn hàng tập thể toàn quốc</div>
+            </div>
+          </div>
+
+          <div className="feature-box">
+            <FiShield size={26} className="feature-icon" />
+            <div>
+              <div className="feature-title">BẢO HÀNH 365 NGÀY</div>
+              <div className="feature-sub">Đổi mới nếu lỗi in thêu</div>
+            </div>
+          </div>
+
+          <div className="feature-box">
+            <FiMapPin size={26} className="feature-icon" />
+            <div>
+              <div className="feature-title">XƯỞNG TRỰC TIẾP</div>
+              <div className="feature-sub">Cửa hàng TVU.vn</div>
+            </div>
+          </div>
+
+          <div className="feature-box">
+            <FiBookOpen size={26} className="feature-icon" />
+            <div>
+              <div className="feature-title">BẢNG MÀU & SIZE</div>
+              <div className="feature-sub">Chuẩn form người Việt</div>
+            </div>
+          </div>
         </div>
 
-        <div>
-          <h4 style={{ fontSize: '16px', fontWeight: '700', marginBottom: '20px' }}>Chính Sách</h4>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Điều Khoản Dịch Vụ</p>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Chính Sách Bảo Mật</p>
-          <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: '#aaa', cursor: 'pointer' }}>Khách Hàng VIP</p>
+        <div className="footer-links-grid">
+          <div>
+            <h4 className="footer-heading">DANH MỤC ĐỒNG PHỤC</h4>
+            <ul className="footer-list">
+              <li><Link to="/san-pham?category=ao-lop">Đồng Phục Áo Lớp Học Sinh</Link></li>
+              <li><Link to="/san-pham?category=ao-cong-so">Đồng Phục Công Sở - Doanh Nghiệp</Link></li>
+              <li><Link to="/san-pham?category=ao-nhom">Đồng Phục Gia Đình & Team Building</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="footer-heading">DỊCH VỤ IN & THÊU</h4>
+            <ul className="footer-list">
+              <li><Link to="/san-pham?category=mau-in">In Lụa & In Chuyển Nhiệt</Link></li>
+              <li><Link to="/san-pham?category=mau-in">Thêu Vi Tính Logo Sắc Nét</Link></li>
+              <li><Link to="/san-pham?category=mau-in">Thiết Kế Mẫu 3D Theo Yêu Cầu</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="footer-heading">CHÍNH SÁCH KHÁCH HÀNG</h4>
+            <ul className="footer-list">
+              <li>Hướng Dẫn Chọn Size Áo</li>
+              <li>Chính Sách Chiết Khấu Tập Thể</li>
+              <li>Cam Kết Chất Lượng Vải Cotton</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="footer-bottom">
+        <div className="copyright-title">
+          © 2026 Website Bán Đồng Phục THIEN.VN - Đồ án cơ sở ngành
+        </div>
+        <div className="copyright-info">
+          Sinh viên thực hiện: Ngô Lý Hoàng Thiện | MSSV: 110124175 | Lớp: DA24TTB | Hotline: 0921.465.246 | Email: hoangthien.28122006@gmail.com
         </div>
       </div>
-
-      <div style={{ backgroundColor: '#111111', padding: '20px', textAlign: 'center', color: '#777' }}>
-        <p style={{ margin: '0 0 8px 0', fontSize: '13px', fontWeight: 'bold', color: '#999' }}>
-          © 2026 Website Bán Đồng Phục. Đồ án cơ sở ngành.
-        </p>
-        <p style={{ margin: 0, fontSize: '12px' }}>
-          Sinh viên: Ngô Lý Hoàng Thiện - Hotline: 0921.465.246 - Email: hoangthien.28122006@gmail.com
-        </p>
-      </div>
-
     </footer>
   );
 }
